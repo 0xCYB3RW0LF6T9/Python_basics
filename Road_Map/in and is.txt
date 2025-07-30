@@ -1,0 +1,10 @@
+is ==> compare between id(memory address) of the variable if both variable share same id (the value of both variable is same)
+then it will return true
+
+is not ==> both variable id is not same then returns true
+
+
+
+
+in ===> it will check that the value does or does not exists in other variable if exists then will return true
+not in ===> check the value between two variable if value doesn't exists then return true

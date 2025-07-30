@@ -1,0 +1,170 @@
+1=print
+2=comment
+3=pip and module
+4=variable
+5=datatypes
+6=numeric type data
+7=bo0lean type data
+8=String type data
+9 string formatting
+10=Binary type data==> byte-unchangeable ii)bytearrary-changeable
+11=None type data
+12=sequence type data->list[]"mutable/Changeable" , tuple()"Un mutable /unchangeable"
+13=operator( Arithmetic operators)(+,-,*,/,**,//)
+14=operator(assignment ,comparison, logical
+15=swapping
+16=User input
+18+19+20=List create list item change ,list item add
+21= list item delete (pop,clear,del,remove)
+
+list.remove("item name")
+list.pop(Index NUmber")
+del listname[Index NUmber]
+list.clear()
+
+22-- loop list
+
+23-- list comprehension
+
+244== list sorting(auto ascending) (  list_name.sort()  ) 	to reverse(to descending)=== (  list_name.sort(reverse = True )     ) 
+
+
+
+25= list copy =>  variable=list_name.copy
+26=list join=>extend
+27=
+28==>
+29==> matrix 
+30==>tuple==.range type data, negative indexing
+31==>tuple data update 	  tuple->list->process->tuple
+32==>tuple  unpacking (de structuring method, * (asterisk)method
+33==>tuple looping
+34==>tuple join=> (tuple + tuple )    ,  (tuple*value)
+35=>tuple method     #i)indexing- find the index of any value or object	   #ii)count_ find how exact many values are in the list
+36=>
+37=>data set =>unchangeable(only support add, remove),unordered, duplicates not  allowed, unindexable
+38=>accessing set value (for loop, in operator)
+39=>add value to set(add,update)
+40=>set value remove (.remove , .discard, .pop , .clear)
+
+remove(value)-->will give us error if item not found in set
+discard(value)-->will not give us any error
+pop()-will remove a random value
+clear()-delete everything
+
+41=>set join ( union(new variable needed) ,update(direct use . not new variable not needed))
+43=>dictionary -->changeable,indexable,ordered, duplicate not allowed 
+
+dictionary_variable = {
+
+"key" : "Value",
+"key1" : "Value1",
+"key2" : "Value2",
+
+ }
+print(dictionary_variable[key_naame])
+
+
+
+44=>dictionary data access -->indexing, .get , .key() , .value()
+
+
+45=>dictionary key change --> i)dictionary_variable_name[key]= update value
+			      ii)update -->dictionary_name.update(  {"key_name":"update value"}  )
+
+46=>delete item from dictionary i)pop ii)popitem-removes the last key and data
+
+dictionary_name.pop(" Key ")
+
+no variable should be used 
+
+
+47=>loop Dictonary
+47.2=> dictionary copy -> .copy()   	,  .update()
+49=> if elif else condition 
+50=> loops in python i)while ii)for
+51=> function-->i)built in ii)user define  iii)recursion function iv)lambda function
+52=>continue and break 
+53=>recursion
+54=>zip---> zip.(list/tuple_name1,list/tuple_name2)
+55=>debugging
+56=>lambda  ---> lambda variable : process ==>lambda a,b: a+b 
+57=>array
+
+58==>classes and objects_same as structure in c
+
+class variable_name :
+	name=""
+
+x=variable_name
+x.name="XXXX"
+
+59=>inheritance
+60=> multiple inheritance same as inheritance
+61=>multilevel inheritance
+62=>Hierarchical inheritance
+63=iterator
+64=>scope=> global and local variable
+65=>date and time
+66=>math function-(abs),(pow),(min),(max)
+67=>Regular expression in python--> findall , search , sub , split
+import re
+
+txt = "hello planet"
+
+x=re.findall("h...*",txt)
+
+68.=> try acccept 
+
+69=> file read
+
+70=>file write
+
+71=>file delete---> 
+import os
+os.remove(file_name)
+
+os.rmdir(delete a folder )
+
+
+72=>creating own module
+
+i) import filename(where we saved our codes)
+
+ii)import file_name as variable_name
+
+iii)from file_name import function name 
+
+
+73=>Python OOP
+	1.class and order
+	2.inheritance
+	3.abstraction 
+	4.encapsulation
+	5.polymorphisiom 
+
+74=>constructor
+it works in class and objects and function we have to declare a function in the class  . 
+
+
+class name:
+	def __init__(self,variables):
+		print(f"we can write our own code in this place and use {} this because we have done format scripting
+
+
+75=> Method in OOP :  instance method (classmethod)
+
+
+76=>
+
+77=> polymorphism
+
+
+78=>Encapsulation ==> _ _
+
+
+
+
+
+
+
